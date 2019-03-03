@@ -1,0 +1,13 @@
+{
+    "name": "thoss/php-test-x1",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Tanvir Hossain",
+            "email": "thoss03@gmail.com"
+        }
+    ],
+    "require": {}
+}
