@@ -1,0 +1,36 @@
+#####Car.php#####
+<?php	tells php to start interpreting the code after it
+class	 blue prints for a php object
+declare executes a directive for a block of code
+strict_types	will force values into a specific type. Ex: given int, strict string, value string
+abstract class	anything in it cannot be instantiated or cant  be used as an instance of
+public 	makes the scope of a variable or function available everywhere
+$	is the start of a variable name
+function	a piece of code which takes one more input in the form of parameter and does some processing and returns a value
+
+#####Email.php#####
+final class	stops a child from overriding it
+private	makes the scope of a function or variable to be visible only in the class
+string	a series of characters
+__construct	declares a construct for classes
+$this	reference to the current object
+->	lets you access to methods and properties of an object
+static	can not be accessed with an instantiated object
+return 	gives control back to the calling file and prints a value if possible
+void	means you cannot return anything otherwise you will get an error
+filter_var	filters variable with specified filter
+throw new exception	creates exception
+
+#####Ford.php#####
+extends take the properties of a parent
+int	is a number
+
+
+#####Physics.php#####
+#####Volvo.php#####
+#####CarTest.php#####
+use gives aliases to names of classes
+expected	tells what it wants
+method_exists	checks if the class method exists
+
+#####EmailTest.php#####
