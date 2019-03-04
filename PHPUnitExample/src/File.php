@@ -25,4 +25,11 @@ class File
         }
         return $records;
     }
+    public function readCSV(String $name) :array
+    {
+        $file = fopen($name, "r");
+        $fileArray = fgetcsv($file);
+        print_r($fileArray);
+        fclose($file);
+    }
 }
